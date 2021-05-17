@@ -3,7 +3,6 @@ namespace classes\model;
 class Conexao
 {
     static $con;
-
     public static function conectar()
     {
         if (!isset(self::$con)) {
